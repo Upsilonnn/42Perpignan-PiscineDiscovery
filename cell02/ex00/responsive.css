@@ -1,0 +1,14 @@
+td {
+    width: 2000px;
+    height: 100px;
+    text-align: center;
+    border: solid black;
+}
+
+.gauche {
+    background-color: peru;
+}
+
+.droite {
+    background-color: royalblue;
+}

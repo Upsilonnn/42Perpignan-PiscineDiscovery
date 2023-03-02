@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <style>
+            .bal{
+                background-color: red;
+                width: 200px;
+                height: 200px;
+                border-radius: 50%;
+            }
+        </style>
+        <div class="bal" id="baloon" onclick="agrandir()" onmouseenter="mouseEnter(this)"></div>
+
+        <script>
+            window.addEventListener("DOMContentLoaded", function() {
+                const baloon = document.getElementById("baloon");
+                baloon.style.backgroundColor = "red";
+            });
+
+            function agrandir() {
+                const baloon = document.getElementById("baloon");
+                changeColor(baloon);
+                let height = baloon.clientHeight;
+                if (height === 420) {
+                    baloon.style.height = "200px";
+                }
+                else{
+                    baloon.style.height = `${height + 10}px`;
+                    
+                }
+            }
+
+            function changeColor(element) {
+                switch(element.style.backgroundColor) {
+                    case "red": {
+                        element.style.backgroundColor = "green";
+                        break;
+                    }
+                    case "green": {
+                        element.style.backgroundColor = "blue";
+                        break;
+                    }
+                    case "blue": {
+                        element.style.backgroundColor = "red";
+                        break;
+                    }
+                }
+            }
+
+            function mouseEnter(element) {
+                if (element.clientHeight <= 200) return;
+                element.style.height = `${element.clientHeight - 5}px`;
+                switch(element.style.backgroundColor) {
+                    case "green": {
+                        element.style.backgroundColor = "red";
+                        break;
+                    }
+                    case "blue": {
+                        element.style.backgroundColor = "green";
+                        break;
+                    }
+                    case "red": {
+                        element.style.backgroundColor = "blue";
+                        break;
+                    }
+                }
+            }
+        </script>
+    </body>
+</html>

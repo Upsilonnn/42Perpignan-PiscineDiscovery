@@ -1,0 +1,96 @@
+
+
+.card {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 500px;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+
+  }
+  
+  p {
+    font-weight: bold;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  td {
+    vertical-align: top;
+    padding: 10px;
+  }
+  .image {
+    box-shadow: 0 10px 50px rgba(235, 25, 110, 1);
+    border: 5px solid #272133;
+    border-radius: 50%;
+  }
+  img {
+    width: 100%;
+    max-width: 150px;
+  }
+  
+  h2 {
+    margin-top: 0;
+
+  }
+  
+  .button {
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .fa {
+    padding: 15px;
+    font-size: 30px;
+    width: 16px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+
+  .fa:hover {
+    opacity: 0.7;
+  }  
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }  
+
+  .fa-reddit {
+    background: #ff5700;
+    color: white;
+  }

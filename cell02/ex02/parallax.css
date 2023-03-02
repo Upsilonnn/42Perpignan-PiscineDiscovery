@@ -1,0 +1,34 @@
+.parallax {
+    min-height: 2200px;
+    font-size: 200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+ 
+.col {
+    background-color: rgb(138, 5, 5);
+    height: 2200px;
+    color: white;
+    text-align: center;
+    font-size: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}  
+
+.para {
+    background-image: url("Gull_portrait_ca_usa.jpg");
+}
+
+.para1 {
+    background-image: url("Giraffe-animal-encounter-in-Florida.jpeg");
+}
